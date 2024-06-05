@@ -13,7 +13,9 @@ Pod::Spec.new do |s|
   s.source_files = 'ios/SDKOutput/*.{h,m,swift,js,css,html,json,xml,txt,etc}'
   
   s.vendored_frameworks = 'ios/SDKOutput/Frameworks/*'
-  s.resource_bundles = 'ios/SDKOutput/Resources/*'
+  s.resource_bundles = {
+    'RNSDK' => ['ios/SDKOutput/Resources/*'],
+  }
   s.dependency "hermes-engine"
   if respond_to?(:install_modules_dependencies, true)
     install_modules_dependencies(s)
