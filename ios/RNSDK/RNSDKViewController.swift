@@ -15,7 +15,7 @@ open class RNSDKViewController: UIViewController {
     
     if (bundleURL != nil) {
       
-      bundleURL!.appendPathComponent("RNSDK/rnsdk.jsbundle")
+      bundleURL!.appendPathComponent("RNSDK.bundle/rnsdk.jsbundle")
       
       let view = RCTRootView(bundleURL: bundleURL!, moduleName: "RNSDKExample", initialProperties: [:])
       self.view = view

@@ -233,20 +233,20 @@
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
       "offset": 370,
-      "length": 22,
-      "value": "\"RNSDK\/rnsdk.jsbundle\""
+      "length": 29,
+      "value": "\"RNSDK.bundle\/rnsdk.jsbundle\""
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 465,
+      "offset": 472,
       "length": 14,
       "value": "\"RNSDKExample\""
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "Dictionary",
-      "offset": 500,
+      "offset": 507,
       "length": 3,
       "value": "[]"
     }
