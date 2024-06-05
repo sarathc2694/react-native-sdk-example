@@ -1,25 +1,19 @@
-require "json"
-
-package = JSON.parse(File.read(File.join(__dir__,"SDKOutput", "package.json")))
-
 Pod::Spec.new do |s|
-  s.name         = package['name']
-  s.module_name  = package['name']
-  s.version      = package['version']
-  s.summary      = package['description']
-  s.license      = package['license']
+  s.name         = 'RNSDK'
+  s.module_name  = 'RNSDK'
+  s.version      = '1.1.0'
+  s.summary      = 'react native sdk example'
+  s.license      = 'MIT'
 
-  s.author       = package['author']
-  s.homepage     = package['homepage']
+  s.author       = 'Sarath Chenthamarai'
+  s.homepage     = 'https://github.com/sarathc2694/react-native-sdk-example#readme'
 
-  s.source       = { :git => package['repository']['url'] }
+  s.source       = { :git => 'https://github.com/sarathc2694/react-native-sdk-example.git' }
 
   s.source_files = 'ios/SDKOutput/*.{h,m,swift,js,css,html,json,xml,txt,etc}'
   
-  s.vendored_frameworks = "ios/SDKOutput/Frameworks/*"
-  s.resource_bundles = {
-    package['name'] => ["ios/SDKOutput/Resources/*"],
-  }
+  s.vendored_frameworks = 'ios/SDKOutput/Frameworks/*'
+  s.resource_bundles = 'ios/SDKOutput/Resources/*'
   s.dependency "hermes-engine"
   if respond_to?(:install_modules_dependencies, true)
     install_modules_dependencies(s)
