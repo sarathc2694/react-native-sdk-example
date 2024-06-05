@@ -13,9 +13,12 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
 
   s.source       = { :git => package['repository']['url'] }
-  s.vendored_frameworks = "Frameworks/*"
+
+  s.source_files = 'ios/SDKOutput/*.{h,m,swift,js,css,html,json,xml,txt,etc}'
+  
+  s.vendored_frameworks = "ios/SDKOutput/Frameworks/*"
   s.resource_bundles = {
-    package['name'] => ["Resources/*"],
+    package['name'] => ["ios/SDKOutput/Resources/*"],
   }
   s.dependency "hermes-engine"
   if respond_to?(:install_modules_dependencies, true)
