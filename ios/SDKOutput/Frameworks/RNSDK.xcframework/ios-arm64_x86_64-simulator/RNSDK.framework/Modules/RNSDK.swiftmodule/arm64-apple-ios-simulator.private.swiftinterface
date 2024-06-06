@@ -16,3 +16,8 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers open class AddMoneySDK : ObjectiveC.NSObject {
+  public func startAddMoneyJourney(_ fromViewController: UIKit.UIViewController, withAccountNumber accountNumber: Swift.String, andName name: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
