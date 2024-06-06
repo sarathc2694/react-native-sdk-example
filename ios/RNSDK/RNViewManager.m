@@ -11,7 +11,7 @@
 @implementation RNViewManager
 
 + (UIView *)getReactNativeView {
-  NSURL *jsCodeLocation = [[NSBundle mainBundle] URLForResource: @"rnsdk" withExtension:@"jsbundle"];
+  NSURL *jsCodeLocation = [[NSBundle mainBundle] URLForResource: @"RNSDK.bundle/rnsdk" withExtension:@"jsbundle"];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation moduleName:@"RNSDKExample" initialProperties:nil launchOptions:nil];
   return rootView;
 }

@@ -6,6 +6,7 @@ import Foundation
 @_exported import RNSDK
 import React
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

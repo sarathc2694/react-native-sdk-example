@@ -224,6 +224,23 @@
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RNSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "RNSDK"
       }
     ],
     "json_format_version": 8
@@ -249,6 +266,34 @@
       "offset": 507,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/AddMoneySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 13,
+      "value": "\"AddMoneySDK\""
+    },
+    {
+      "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/AddMoneySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 27,
+      "value": "\"Params => accountNumber: \""
+    },
+    {
+      "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/AddMoneySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 18,
+      "value": "\"Params => name: \""
+    },
+    {
+      "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/AddMoneySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 598,
+      "length": 4,
+      "value": "true"
     }
   ]
 }
