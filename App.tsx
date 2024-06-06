@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <AddMoneyScreen></AddMoneyScreen>
+      <AddMoneyTransactionScreen></AddMoneyTransactionScreen>
       {/* <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen
           name="Home"
