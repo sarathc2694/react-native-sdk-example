@@ -392,16 +392,9 @@
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 472,
+      "offset": 556,
       "length": 14,
       "value": "\"RNSDKExample\""
-    },
-    {
-      "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
-      "kind": "Dictionary",
-      "offset": 507,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/AddMoneySDK.swift",

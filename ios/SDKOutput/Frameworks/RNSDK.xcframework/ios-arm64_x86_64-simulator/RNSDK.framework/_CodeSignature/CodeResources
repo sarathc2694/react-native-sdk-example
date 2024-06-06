@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/RNSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oN3TcCTJwzCijXFZqoUcpQSrBrA=
+		bq4dk+skCYH3HiVhNU5yyUxCY7s=
 		</data>
 		<key>Modules/RNSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/RNSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oN3TcCTJwzCijXFZqoUcpQSrBrA=
+		bq4dk+skCYH3HiVhNU5yyUxCY7s=
 		</data>
 		<key>Modules/RNSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -753,7 +753,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xkZDcRQTbMSFu7WBPJHauUOzuonBmXbb9J/u1S+oNhI=
+			hSdPgUh3HFxO924/QSOouwsBGoThF7kvxnlDgRZUjHg=
 			</data>
 		</dict>
 		<key>Modules/RNSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -788,7 +788,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xkZDcRQTbMSFu7WBPJHauUOzuonBmXbb9J/u1S+oNhI=
+			hSdPgUh3HFxO924/QSOouwsBGoThF7kvxnlDgRZUjHg=
 			</data>
 		</dict>
 		<key>Modules/RNSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

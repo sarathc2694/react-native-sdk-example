@@ -16,9 +16,9 @@ open class RNSDKViewController: UIViewController {
     if (bundleURL != nil) {
       
       bundleURL!.appendPathComponent("RNSDK.bundle/rnsdk.jsbundle")
-      
-      let view = RCTRootView(bundleURL: bundleURL!, moduleName: "RNSDKExample", initialProperties: [:])
-      self.view = view
+      let bridge = RCTBridge(bundleURL: bundleURL!, moduleProvider: nil, launchOptions: nil)
+      let rootView = RCTRootView(bridge: bridge!, moduleName: "RNSDKExample", initialProperties: nil)
+      self.view = rootView
     }
   }
 }
