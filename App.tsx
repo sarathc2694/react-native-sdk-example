@@ -8,21 +8,21 @@ const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <AddMoneyTransactionScreen></AddMoneyTransactionScreen>
-      {/* <Stack.Navigator initialRouteName='Home'>
-        <Stack.Screen
-          name="Home"
-          component={AddMoneyScreen}
-          options={{title: 'Home'}}
-        />
-        <Stack.Screen
-          name="Details"
-          component={AddMoneyTransactionScreen}
-          options={{title: 'Details'}}
-        />
-      </Stack.Navigator> */}
-    </NavigationContainer>
+    <AddMoneyTransactionScreen/>
+    // <NavigationContainer>
+    //   <Stack.Navigator initialRouteName='Home'>
+    //     <Stack.Screen
+    //       name="Home"
+    //       component={AddMoneyScreen}
+    //       options={{title: 'Home'}}
+    //     />
+    //     <Stack.Screen
+    //       name="Details"
+    //       component={AddMoneyTransactionScreen}
+    //       options={{title: 'Details'}}
+    //     />
+    //   </Stack.Navigator>
+    // </NavigationContainer>
   );
 };
 

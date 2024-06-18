@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   ScrollView,
+  Linking,
 } from 'react-native';
 import FastImage from 'react-native-fast-image';
 import {Card} from 'react-native-elements';
@@ -19,8 +20,18 @@ const AddMoneyTransactionScreen = () => {
     balance: '1000.00',
   };
 
-  const initializePaymentSheet = () => {
-    alert('Redirecting to PSP app...');
+  const initializePaymentSheet = async () => {
+    try {
+      const appUrl = `upidemoapp://upi/pay?am=${amount}&txnId=12345`;
+      if (await Linking.canOpenURL(appUrl)) {
+        return await Linking.openURL(appUrl);
+      } else {
+        alert('Cannot Open URL ', appUrl);
+      }
+    } catch (err) {
+      console.log('Error is ', err);
+      alert('Redirecting to Demo app failed because of ', err, url);
+    }
   };
 
   return (
