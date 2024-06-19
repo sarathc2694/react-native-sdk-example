@@ -20,7 +20,6 @@
 		2AADCD932C0D8FDC00C70249 /* RNSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AADCD902C0D8FDC00C70249 /* RNSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AADCD962C0D8FDC00C70249 /* RNSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AADCD8E2C0D8FDC00C70249 /* RNSDK.framework */; };
 		2AADCD972C0D8FDC00C70249 /* RNSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AADCD8E2C0D8FDC00C70249 /* RNSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2ACC8FA22C11C85500441972 /* AddMoneySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC8FA12C11C85500441972 /* AddMoneySDK.swift */; };
 		3DEE7BD2C5FDB46AEF32A3D3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 96E7798A2CCC9B64DAE25383 /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-RNSDKExample-RNSDKExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNSDKExample-RNSDKExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -76,7 +75,6 @@
 		2AADCD8E2C0D8FDC00C70249 /* RNSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AADCD902C0D8FDC00C70249 /* RNSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSDK.h; sourceTree = "<group>"; };
 		2AADCD912C0D8FDC00C70249 /* RNSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RNSDK.docc; sourceTree = "<group>"; };
-		2ACC8FA12C11C85500441972 /* AddMoneySDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneySDK.swift; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSDKExample.debug.xcconfig"; path = "Target Support Files/Pods-RNSDKExample/Pods-RNSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSDKExample.release.xcconfig"; path = "Target Support Files/Pods-RNSDKExample/Pods-RNSDKExample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNSDKExample-RNSDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSDKExample-RNSDKExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RNSDKExample-RNSDKExampleTests/Pods-RNSDKExample-RNSDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 				2A02F4482C0D910D00B06CC8 /* RNSDKViewController.swift */,
 				2A02F4502C0D94AC00B06CC8 /* RNViewManager.h */,
 				2A02F4512C0D94AC00B06CC8 /* RNViewManager.m */,
-				2ACC8FA12C11C85500441972 /* AddMoneySDK.swift */,
 			);
 			path = RNSDK;
 			sourceTree = "<group>";
@@ -562,7 +559,6 @@
 				2AADCD922C0D8FDC00C70249 /* RNSDK.docc in Sources */,
 				2A02F4532C0D94AC00B06CC8 /* RNViewManager.m in Sources */,
 				2A02F4492C0D910D00B06CC8 /* RNSDKViewController.swift in Sources */,
-				2ACC8FA22C11C85500441972 /* AddMoneySDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

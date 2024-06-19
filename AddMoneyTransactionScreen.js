@@ -11,8 +11,9 @@ import {
 import FastImage from 'react-native-fast-image';
 import {Card} from 'react-native-elements';
 
-const AddMoneyTransactionScreen = () => {
+const AddMoneyTransactionScreen = ({data}) => {
   const [amount, setAmount] = useState('');
+  console.log('data is ---', data);
 
   const accountDetails = {
     name: 'Sarath C',

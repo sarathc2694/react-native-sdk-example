@@ -9,6 +9,18 @@ import Foundation
 import React
 
 open class RNSDKViewController: UIViewController {
+  
+  private var customData: [String: Any]
+  
+  init(customData: [String: Any]) {
+    self.customData = customData
+    super.init(nibName: nil, bundle: nil)
+  }
+
+  required public init?(coder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+  }
+  
   override public func loadView() {
     let bundle: Bundle = Bundle.main
     var bundleURL = bundle.resourceURL
@@ -17,7 +29,7 @@ open class RNSDKViewController: UIViewController {
       
       bundleURL!.appendPathComponent("RNSDK.bundle/rnsdk.jsbundle")
       let bridge = RCTBridge(bundleURL: bundleURL!, moduleProvider: nil, launchOptions: nil)
-      let rootView = RCTRootView(bridge: bridge!, moduleName: "RNSDKExample", initialProperties: nil)
+      let rootView = RCTRootView(bridge: bridge!, moduleName: "RNSDKExample", initialProperties: customData)
       self.view = rootView
     }
   }

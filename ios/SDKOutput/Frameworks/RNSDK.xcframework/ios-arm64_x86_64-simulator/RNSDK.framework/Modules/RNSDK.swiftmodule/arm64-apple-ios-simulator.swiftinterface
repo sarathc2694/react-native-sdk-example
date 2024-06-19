@@ -6,18 +6,11 @@ import Foundation
 @_exported import RNSDK
 import React
 import Swift
-import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class RNSDKViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class RNSDKViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers open class AddMoneySDK : ObjectiveC.NSObject {
-  public func startAddMoneyJourney(_ fromViewController: UIKit.UIViewController, withAccountNumber accountNumber: Swift.String, andName name: Swift.String)
-  @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
   @objc deinit
 }
