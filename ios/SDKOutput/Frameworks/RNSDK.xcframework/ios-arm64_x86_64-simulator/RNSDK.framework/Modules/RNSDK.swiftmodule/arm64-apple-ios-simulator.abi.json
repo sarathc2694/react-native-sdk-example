@@ -29,6 +29,47 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(customData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RNSDKViewController",
+                "printedName": "RNSDK.RNSDKViewController",
+                "usr": "c:@M@RNSDK@objc(cs)RNSDKViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5RNSDK19RNSDKViewControllerC10customDataACSDySSypG_tcfc",
+            "mangledName": "$s5RNSDK19RNSDKViewControllerC10customDataACSDySSypG_tcfc",
+            "moduleName": "RNSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(coder:)",
             "children": [
               {
@@ -160,7 +201,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -232,21 +272,21 @@
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 400,
+      "offset": 407,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 644,
       "length": 29,
       "value": "\"RNSDK.bundle\/rnsdk.jsbundle\""
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 823,
+      "offset": 830,
       "length": 14,
       "value": "\"RNSDKExample\""
     },

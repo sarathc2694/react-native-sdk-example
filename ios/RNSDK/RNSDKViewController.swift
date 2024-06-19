@@ -12,7 +12,7 @@ open class RNSDKViewController: UIViewController {
   
   private var customData: [String: Any]
   
-  init(customData: [String: Any]) {
+  public init(customData: [String: Any]) {
     self.customData = customData
     super.init(nibName: nil, bundle: nil)
   }
