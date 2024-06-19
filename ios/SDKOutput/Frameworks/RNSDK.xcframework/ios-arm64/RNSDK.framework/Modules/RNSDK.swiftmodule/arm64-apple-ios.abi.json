@@ -58,12 +58,14 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5RNSDK19RNSDKViewControllerC10customDataACSDySSypG_tcfc",
+            "usr": "c:@M@RNSDK@objc(cs)RNSDKViewController(im)initWithCustomData:",
             "mangledName": "$s5RNSDK19RNSDKViewControllerC10customDataACSDySSypG_tcfc",
             "moduleName": "RNSDK",
+            "objc_name": "initWithCustomData:",
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -195,6 +197,7 @@
         "mangledName": "$s5RNSDK19RNSDKViewControllerC",
         "moduleName": "RNSDK",
         "isOpen": true,
+        "objc_name": "RNSDKViewController",
         "declAttributes": [
           "Custom",
           "AccessControl",
@@ -272,28 +275,28 @@
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 442,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 679,
       "length": 29,
       "value": "\"RNSDK.bundle\/rnsdk.jsbundle\""
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 865,
       "length": 14,
       "value": "\"RNSDKExample\""
     },
     {
       "filePath": "\/Users\/sarathchenthamarai\/Desktop\/Code\/RNSDKExample\/ios\/RNSDK\/RNSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 141,
+      "offset": 168,
       "length": 19,
       "value": "\"RNSDK.RNSDKViewController\""
     }

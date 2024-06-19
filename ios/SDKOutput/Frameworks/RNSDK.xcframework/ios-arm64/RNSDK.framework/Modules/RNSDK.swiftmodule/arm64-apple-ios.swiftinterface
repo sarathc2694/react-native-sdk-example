@@ -9,8 +9,8 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_Concurrency.MainActor(unsafe) open class RNSDKViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public init(customData: [Swift.String : Any])
+@objc(RNSDKViewController) @_Concurrency.MainActor(unsafe) open class RNSDKViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) public init(customData: [Swift.String : Any])
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
   @objc deinit

@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -298,12 +299,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
 @class NSString;
+@class NSCoder;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC5RNSDK19RNSDKViewController")
+SWIFT_CLASS_NAMED("RNSDKViewController")
 @interface RNSDKViewController : UIViewController
+- (nonnull instancetype)initWithCustomData:(NSDictionary<NSString *, id> * _Nonnull)customData OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)loadView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
