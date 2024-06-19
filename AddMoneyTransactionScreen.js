@@ -15,12 +15,6 @@ const AddMoneyTransactionScreen = ({data}) => {
   const [amount, setAmount] = useState('');
   console.log('data is ---', data);
 
-  const accountDetails = {
-    name: 'Sarath C',
-    accountNumber: '1234567890',
-    balance: '1000.00',
-  };
-
   const initializePaymentSheet = async () => {
     try {
       const appUrl = `upidemoapp://upi/pay?am=${amount}&txnId=12345`;
@@ -40,9 +34,9 @@ const AddMoneyTransactionScreen = ({data}) => {
       <View style={styles.container}>
         <Card>
           <Text style={styles.title}>Account Details</Text>
-          <Text>Name: {accountDetails.name}</Text>
-          <Text>Account Number: {accountDetails.accountNumber}</Text>
-          <Text>Balance: {accountDetails.balance}</Text>
+          <Text>Name: {data.name}</Text>
+          <Text>Account Number: {data.accountNumber}</Text>
+          <Text>Balance: {data.balance}</Text>
         </Card>
         <TextInput
           style={styles.input}

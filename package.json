@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "build-sdk-ios": "sh scripts/bundle-ios.sh && sh scripts/bundle-fw-ios.sh"
+    "build-sdk-ios": "sh scripts/bundle-ios.sh && sh scripts/bundle-fw-ios.sh",
+    "bundle-js": "sh scripts/bundle-ios.sh"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.17",
